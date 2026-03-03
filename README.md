@@ -49,13 +49,13 @@ Build a song class. As a user, one should be able to:
     *  genres
     *  artists
     *  genre_count
-    *  artists_count
+    *  artist_count
   * Class Methods
     * add_song_to_count
     * add_to _genres
     * add_to_artists
     * add_to_genre_count
-    * add_to_artists_count
+    * add_to_artist_count
 
 ### Task 3: Develop, Test, and Refine the Code
 
@@ -85,7 +85,7 @@ git checkout -b [name of branch]
   * genres
   * artists
   * genre_count
-  * artists_count
+  * artist_count
 
 #### Step 3: Class methods
 
@@ -101,9 +101,9 @@ git checkout -b [name of branch]
 * add_to_genre_count
   * Updates class attribute genre_count
   * Increments genre key by 1, if genre doesn’t exist in genre_count add the key and set it to 1
-* add_to_artists_count
-  * Updates class attribute artists_count
-  * Increments artists key by 1, if artist doesn’t exist in artists_count add the key and set it to 1
+* add_to_artist_count
+  * Updates class attribute artist_count
+  * Increments artists key by 1, if artist doesn’t exist in artist_count add the key and set it to 1
 
 #### Step 4: Push feature branch and open a PR on GitHub
 
